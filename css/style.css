@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(img/background.jpg);
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  text-align: center;
+}
+
+.marca {
+  border-radius: 15px 15px 0 0;
+  background-color: black;
+  color: white;
+}
+
+.titulo__marca {
+   font-size: 16px;
+}
+
+.titulo {
+  color: #0277bd;
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.presentacion {
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow:  0 8px 10px rgba(0, 0, 0, 0.6);
+  background-color: white;
+  margin: 30px auto;
+  height: 450px;
+  width: 50%
+}
+
+.container {
+  padding: 50px 10px 0;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 20px;
+  margin: 10px 0;
+  width: 70%;
+}
+
+input {
+  font-family: 'Indie Flower', cursive;
+  font-size: 16px
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.boton {
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: 800;
+  display: block;
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 40%
+}
+
+.botonVolver {
+  background-color: #0277bd;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-weight: 800;
+  display: block;
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 40%
+}
+
+.boton:hover,
+.botonTrivias:hover
+.botonSiguiente:hover {
+  background-color: #0277bd;
+  color: white;
+  border: 1px solid white
+}
+
+.botonTrivias {
+  font-family: 'Indie Flower', cursive;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px auto;
+  width: 80%
+}
+
+.pregunta {
+  display:block;
+  font-weight: 600;
+}
+
+.botonSiguiente {
+  border-radius: 10px;
+  border: 1px solid black;
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 30%;
+  margin-left: 60%;
+  font-weight: bold;
+}
+
+.cronometro {
+  border-radius: 10px;
+  border: 1px solid #0277bd;
+  min-height: 30px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.puntos {
+  font-size:16px;
+  margin: 10px 0;
+}
+
+.imgDecoracion {
+  width:180px;
+}
+
+.puntajeTitulo {
+  color:  #0277bd;
+  font-size: 25px
+}
+
+.puntaje {
+  color: #ff6f00;
+  font-size: 40px;
+}
